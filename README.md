@@ -1,26 +1,47 @@
-# ADRUS Merrylands SEO + Reviews Update
+# ADRUS Complete Updated GitHub Code
 
-This pack includes:
-- stronger local SEO targeting for "tutoring Merrylands"
-- a dedicated Google Reviews section on the homepage
-- local business structured data
-- updated page titles and meta descriptions
-- existing EmailJS-ready booking form
+This package includes the full updated GitHub-ready website for ADRUS with:
 
-## Important
-This improves your chances of ranking for local searches, but Google rankings are not guaranteed.
+- Home
+- Programs
+- About
+- Pricing
+- Book a Lesson
 
-## Best next steps
-1. Upload all files to your GitHub repo
-2. Replace old files
-3. Commit changes
-4. Add your verified Google reviews to the homepage review section
-5. Verify and complete your Google Business Profile
-6. Ask families to leave Google reviews
-7. Submit your sitemap in Google Search Console
+Included updates:
+- updated logo and more prominent logo placement
+- footer logo badge for contrast on dark background
+- Merrylands local SEO improvements
+- Google reviews section on homepage
+- updated pricing system with weekly breakdowns
+- Early Bird 10% discount
+- EmailJS-ready enquiry form
+- updated contact details:
+  - admin@adrus.com.au
+  - 0400 000 000
+  - Merrylands, NSW
+
+## Files
+- index.html
+- programs.html
+- about.html
+- pricing.html
+- book.html
+- styles.css
+- script.js
+- logo.png
+- robots.txt
+- sitemap.xml
 
 ## EmailJS
-Replace these placeholders in `script.js`:
+Replace these placeholders in script.js:
 - YOUR_SERVICE_ID
 - YOUR_TEMPLATE_ID
 - YOUR_PUBLIC_KEY
+
+## GitHub upload
+1. Upload all files to the root of your GitHub repository
+2. Replace old files if prompted
+3. Commit changes
+4. Wait for GitHub Pages to republish
+5. Hard refresh your website
