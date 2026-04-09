@@ -16,3 +16,6 @@ EmailJS placeholders to replace in script.js:
 - YOUR_SERVICE_ID
 - YOUR_TEMPLATE_ID
 - YOUR_PUBLIC_KEY
+
+
+Updated to use the newer ADRUS logo and make the logo more prominent in the navigation, footer and homepage hero area.
