@@ -23,3 +23,6 @@ Replace EmailJS placeholders in script.js:
 - YOUR_SERVICE_ID
 - YOUR_TEMPLATE_ID
 - YOUR_PUBLIC_KEY
+
+
+Home page updated again to be even less wordy, more image-led and more fun.
