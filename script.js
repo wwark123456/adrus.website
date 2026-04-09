@@ -1,3 +1,4 @@
+
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.site-nav');
 const page = document.body.dataset.page;
@@ -13,15 +14,8 @@ const EMAILJS_CONFIG = {
 if (nav && page) {
   nav.querySelectorAll('a').forEach((link) => {
     const href = link.getAttribute('href');
-    if (
-      (page === 'home' && href === 'index.html') ||
-      (page === 'programs' && href === 'programs.html') ||
-      (page === 'about' && href === 'about.html') ||
-      (page === 'pricing' && href === 'pricing.html') ||
-      (page === 'contact' && href === 'contact.html')
-    ) {
-      link.classList.add('active');
-    }
+    const isActive = (page === 'home' && href === 'index.html') || (page === 'programs' && href === 'programs.html') || (page === 'about' && href === 'about.html') || (page === 'pricing' && href === 'pricing.html') || (page === 'book' && href === 'book.html');
+    if (isActive) link.classList.add('active');
   });
 }
 
@@ -30,7 +24,6 @@ if (toggle && nav) {
     const open = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', String(open));
   });
-
   nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       nav.classList.remove('open');
@@ -49,7 +42,6 @@ if ('IntersectionObserver' in window) {
       }
     });
   }, { threshold: 0.14 });
-
   reveals.forEach((item) => observer.observe(item));
 } else {
   reveals.forEach((item) => item.classList.add('visible'));
@@ -58,33 +50,18 @@ if ('IntersectionObserver' in window) {
 if (form) {
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
-
     const missingConfig = Object.values(EMAILJS_CONFIG).some((value) => value.startsWith('YOUR_'));
     if (missingConfig) {
       success.textContent = 'Replace the EmailJS placeholders in script.js with your real service ID, template ID and public key.';
       return;
     }
-
     if (!window.emailjs) {
       success.textContent = 'EmailJS failed to load. Please refresh and try again.';
       return;
     }
-
     try {
-      window.emailjs.init({
-        publicKey: EMAILJS_CONFIG.publicKey,
-        limitRate: {
-          id: 'contact-form',
-          throttle: 10000
-        }
-      });
-
-      await window.emailjs.sendForm(
-        EMAILJS_CONFIG.serviceId,
-        EMAILJS_CONFIG.templateId,
-        form
-      );
-
+      window.emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
+      await window.emailjs.sendForm(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, form);
       success.textContent = 'Thanks — your enquiry has been sent successfully.';
       form.reset();
     } catch (error) {
