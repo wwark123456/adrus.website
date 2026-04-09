@@ -14,7 +14,12 @@ const EMAILJS_CONFIG = {
 if (nav && page) {
   nav.querySelectorAll('a').forEach((link) => {
     const href = link.getAttribute('href');
-    const isActive = (page === 'home' && href === 'index.html') || (page === 'programs' && href === 'programs.html') || (page === 'about' && href === 'about.html') || (page === 'pricing' && href === 'pricing.html') || (page === 'book' && href === 'book.html');
+    const isActive =
+      (page === 'home' && href === 'index.html') ||
+      (page === 'programs' && href === 'programs.html') ||
+      (page === 'about' && href === 'about.html') ||
+      (page === 'pricing' && href === 'pricing.html') ||
+      (page === 'book' && href === 'book.html');
     if (isActive) link.classList.add('active');
   });
 }
@@ -24,6 +29,7 @@ if (toggle && nav) {
     const open = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', String(open));
   });
+
   nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       nav.classList.remove('open');
@@ -65,7 +71,7 @@ if (form) {
       success.textContent = 'Thanks — your enquiry has been sent successfully.';
       form.reset();
     } catch (error) {
-      success.textContent = 'Something went wrong sending the form. Please try again or email hello@adrus.com.au.';
+      success.textContent = 'Something went wrong sending the form. Please try again or email admin@adrus.com.au.';
     }
   });
 }
