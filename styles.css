@@ -111,3 +111,27 @@ h1,h2,h3,.price { font-family:'Cinzel',serif; letter-spacing:.01em; }
   font-weight: 700;
   color: var(--accent);
 }
+
+
+.pricing-grid-premium {
+  align-items: stretch;
+}
+
+.pricing-grid-premium .price-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-grid-premium .price-card .btn {
+  margin-top: auto;
+}
+
+.pricing-side-card {
+  align-self: center;
+}
+
+.center-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+}

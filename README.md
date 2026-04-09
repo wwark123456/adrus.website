@@ -45,3 +45,6 @@ Replace these placeholders in script.js:
 3. Commit changes
 4. Wait for GitHub Pages to republish
 5. Hard refresh your website
+
+
+Pricing page refreshed to match the tone, spacing and professionalism of the other pages.
