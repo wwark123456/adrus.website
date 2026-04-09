@@ -26,3 +26,5 @@ Replace EmailJS placeholders in script.js:
 
 
 Home page updated again to be even less wordy, more image-led and more fun.
+
+Updated to use more school-age student and teacher focused photos across the website.
