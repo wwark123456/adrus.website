@@ -25,3 +25,10 @@ Replace EmailJS placeholders in script.js:
 - YOUR_SERVICE_ID
 - YOUR_TEMPLATE_ID
 - YOUR_PUBLIC_KEY
+
+
+Footer upgraded across the full site with:
+- standalone Merrylands, NSW line removed
+- gold-accent contact icons
+- subtle hover animation on icons
+- divider lines and spacing for a more agency-style footer
