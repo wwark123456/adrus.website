@@ -32,3 +32,10 @@ Footer upgraded across the full site with:
 - gold-accent contact icons
 - subtle hover animation on icons
 - divider lines and spacing for a more agency-style footer
+
+
+Latest updates included:
+- removed the Early Bird support sentence
+- changed “Book a Free Trial” to “Book a Lesson”
+- added “Limited Spots Available” to key conversion buttons
+- added subtle urgency text on the homepage
