@@ -1,14 +1,16 @@
-# ADRUS Visual Refresh
+# ADRUS Agency Upgrade
 
-This version is:
-- less wordy
-- more visual
-- more fun and parent-friendly
-- updated with more tutoring/student imagery
-- still GitHub-ready and EmailJS-ready
+This package includes:
+- rewritten homepage in a stronger agency style
+- a dedicated high-converting landing page
+- a Google reviews funnel section
+- local location coverage for Merrylands, Guildford, Granville and Parramatta
+- pricing, program, about and booking pages
+- EmailJS-ready contact form
 
 Files included:
 - index.html
+- landing.html
 - programs.html
 - about.html
 - pricing.html
@@ -23,8 +25,3 @@ Replace EmailJS placeholders in script.js:
 - YOUR_SERVICE_ID
 - YOUR_TEMPLATE_ID
 - YOUR_PUBLIC_KEY
-
-
-Home page updated again to be even less wordy, more image-led and more fun.
-
-Updated to use more school-age student and teacher focused photos across the website.
