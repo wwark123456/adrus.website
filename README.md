@@ -45,3 +45,12 @@ Microsoft Forms integration included:
 - booking buttons now link to your Microsoft Form
 - the Book page now embeds the Microsoft Form
 - form URL used: https://forms.office.com/r/E9THtaTc0e?origin=lprLink
+
+
+Latest home page update:
+- changed the hero title to “Tutoring at ADRUS”
+- replaced the home page hero paragraph with four dot points:
+  - Qur'an
+  - Arabic
+  - English
+  - Mathematics
