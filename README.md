@@ -39,3 +39,9 @@ Latest updates included:
 - changed “Book a Free Trial” to “Book a Lesson”
 - added “Limited Spots Available” to key conversion buttons
 - added subtle urgency text on the homepage
+
+
+Microsoft Forms integration included:
+- booking buttons now link to your Microsoft Form
+- the Book page now embeds the Microsoft Form
+- form URL used: https://forms.office.com/r/E9THtaTc0e?origin=lprLink
